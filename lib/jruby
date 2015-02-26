@@ -37,6 +37,7 @@ function jruby-install() {
 }
 
 function install-required-gems() {
+  echo "Running '${OPENSHIFT_RUBY_DIR}/.jruby/jruby -S gem install bundler rake'"
   ${OPENSHIFT_RUBY_DIR}/.jruby/jruby -S gem install bundler rake
   return 0
 }
