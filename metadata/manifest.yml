@@ -3,6 +3,7 @@ Name: advanced-ruby
 Cartridge-Short-Name: RUBY
 Display-Name: Advanced Ruby cartridge
 Description: Advanced Ruby cartridge with additional support for many popular webservers and JRuby implementation.
+Source-Url: https://github.com/ryanj/advanced-ruby-cartridge.git
 Version: '1.9'
 Versions:
 - '1.9'
